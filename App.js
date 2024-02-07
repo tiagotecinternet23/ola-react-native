@@ -21,10 +21,10 @@ export default function App() {
         <View style={estilos.cabecalho}>
           <Text>Topo/Cabeçalho</Text>
         </View>
-        <View>
+        <View style={estilos.conteudo}>
           <Text>Conteúdo...</Text>
         </View>
-        <View>
+        <View style={estilos.rodape}>
           <Text>Rodapé...</Text>
           <Button title="Toca aqui!!!" onPress={vai} />
         </View>
