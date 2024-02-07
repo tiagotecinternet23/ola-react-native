@@ -37,14 +37,19 @@ const estilos = StyleSheet.create({
   container: {
     backgroundColor: "lightblue",
     flex: 1,
+    // justifyContent: "center",
+    // flexDirection: "row", // padrão é column
   },
   cabecalho: {
     backgroundColor: "lightgreen",
+    flex: 0.6,
   },
   conteudo: {
     backgroundColor: "yellow",
+    flex: 4,
   },
   rodape: {
     backgroundColor: "orange",
+    flex: 0.7,
   },
 });
