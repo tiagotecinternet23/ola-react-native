@@ -47,6 +47,12 @@ const estilos = StyleSheet.create({
   conteudo: {
     backgroundColor: "yellow",
     flex: 4,
+    width: "90%",
+    marginLeft: "auto",
+    marginRight: "auto",
+    marginTop: 4,
+    marginBottom: 4,
+    borderRadius: 10,
   },
   rodape: {
     backgroundColor: "orange",
