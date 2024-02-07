@@ -10,6 +10,7 @@ import {
 export default function App() {
   const vai = () => {
     Alert.alert("Titulo da janela", "Fala parça!");
+    console.log("Teste!");
   };
 
   return (
