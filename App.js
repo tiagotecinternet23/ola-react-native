@@ -5,7 +5,6 @@ import {
   SafeAreaView,
   Button,
   Alert,
-  StyleSheet,
 } from "react-native";
 import estilos from "./src/stylesheets/estilos";
 
